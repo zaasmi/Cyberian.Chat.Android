@@ -2,11 +2,11 @@
 
 # IMPORTANT:   PLEASE READ THIS FIRST
 
-Cyberian.Chat mobile is [moving to React Native](https://rocket.chat/2019/10/11/moving-mobile-apps-to-react/).   Development on this repository by Cyberian.Chat has now ceased.   If your team is interested in taking over and maintaining this Android native client repository then please [contact us](https://cyberian.pk/contact).
+Cyberian.Chat mobile is [moving to React Native](https://Cyberian.pk/2019/10/11/moving-mobile-apps-to-react/).   Development on this repository by Cyberian.Chat has now ceased.   If your team is interested in taking over and maintaining this Android native client repository then please [contact us](https://cyberian.pk/contact).
 
 # Legacy Cyberian.Chat Android native application
 
-[![CircleCI](https://circleci.com/gh/RocketChat/Rocket.Chat.Android/tree/develop.svg?style=shield)](https://circleci.com/gh/RocketChat/Rocket.Chat.Android/tree/develop) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/a81156a8682e4649994270d3670c3c83)](https://www.codacy.com/app/matheusjardimb/Cyberian.Chat.Android)
+[![CircleCI](https://circleci.com/gh/CyberianChat/Cyberian.Chat.Android/tree/develop.svg?style=shield)](https://circleci.com/gh/CyberianChat/Cyberian.Chat.Android/tree/develop) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/a81156a8682e4649994270d3670c3c83)](https://www.codacy.com/app/matheusjardimb/Cyberian.Chat.Android)
 
 ## Get it from the stores
 
@@ -23,7 +23,7 @@ This repository contains all the code related to the Android native application 
 
 ### SDK Instructions
 
-- This version requires the [Kotlin SDK](https://github.com/RocketChat/Rocket.Chat.Kotlin.SDK) for Rocket.Chat. Clone the Kotlin SDK in by running `git clone https://github.com/zaasmi/Cyberian.Chat.Kotlin.SDK.git`.
+- This version requires the [Kotlin SDK](https://github.com/zaasmi/Cyberian.Chat.Kotlin.SDK) for Cyberian.Chat. Clone the Kotlin SDK in by running `git clone https://github.com/zaasmi/Cyberian.Chat.Kotlin.SDK.git`.
 - First, a build is required for the SDK, so that required jar files are generated. Make sure that the Android repository and the Kotlin SDK have the same immediate parent directory. Change the current directory to `Cyberian.Chat.Android/app` and run the `build-sdk.sh` which will result in creating of the required jar file `core*.jar` and `common*.jar` in `Cyberian.Chat.Android/app/libs`, by the following steps in your terminal window:
 
 ```
@@ -47,7 +47,7 @@ cd Cyberian.Chat.Android/app
 
 ## Bug report & Feature request
 
-Are you having a technical issue trying to compile the app, or setting up Push Notifications? Please use our Community Support channel for that: https://forums.rocket.chat/c/community-support. The issues are only supposed to be used for bugs, improvements, and features in the native Android application.
+Are you having a technical issue trying to compile the app, or setting up Push Notifications? Please use our Community Support channel for that: https://cyberian.pk/topic/339/cyberian-mobile-application-launched?_=1576494294745. The issues are only supposed to be used for bugs, improvements, and features in the native Android application.
 
 ## Coding Style
 
