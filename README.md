@@ -1,4 +1,4 @@
-![Rocket.Chat logo](https://raw.githubusercontent.com/RocketChat/Rocket.Chat.Artwork/master/Logos/logo-dark.svg?sanitize=true)
+![Cyberian.Chat logo](https://cyberian.pk/assets/uploads/system/site-logo.png?v=eer7j4ueaje)
 
 # IMPORTANT:   PLEASE READ THIS FIRST
 
