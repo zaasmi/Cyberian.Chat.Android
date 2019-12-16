@@ -2,19 +2,19 @@
 
 # IMPORTANT:   PLEASE READ THIS FIRST
 
-Rocket.Chat mobile is [moving to React Native](https://rocket.chat/2019/10/11/moving-mobile-apps-to-react/).   Development on this repository by Rocket.Chat has now ceased.   If your team is interested in taking over and maintaining this Android native client repository then please [contact us](https://cyberian.pk/contact).
+Cyberian.Chat mobile is [moving to React Native](https://rocket.chat/2019/10/11/moving-mobile-apps-to-react/).   Development on this repository by Cyberian.Chat has now ceased.   If your team is interested in taking over and maintaining this Android native client repository then please [contact us](https://cyberian.pk/contact).
 
-# Legacy Rocket.Chat Android native application
+# Legacy Cyberian.Chat Android native application
 
-[![CircleCI](https://circleci.com/gh/RocketChat/Rocket.Chat.Android/tree/develop.svg?style=shield)](https://circleci.com/gh/RocketChat/Rocket.Chat.Android/tree/develop) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/a81156a8682e4649994270d3670c3c83)](https://www.codacy.com/app/matheusjardimb/Rocket.Chat.Android)
+[![CircleCI](https://circleci.com/gh/RocketChat/Rocket.Chat.Android/tree/develop.svg?style=shield)](https://circleci.com/gh/RocketChat/Rocket.Chat.Android/tree/develop) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/a81156a8682e4649994270d3670c3c83)](https://www.codacy.com/app/matheusjardimb/Cyberian.Chat.Android)
 
 ## Get it from the stores
 
-[![](https://user-images.githubusercontent.com/551004/48210349-50649480-e35e-11e8-97d9-74a4331faf3a.png)](https://f-droid.org/en/packages/chat.rocket.android/)
+[![](https://user-images.githubusercontent.com/551004/48210349-50649480-e35e-11e8-97d9-74a4331faf3a.png)](https://f-droid.org/en/packages/chat.Cyberian.android/)
 
 ## Description
 
-This repository contains all the code related to the Android native application of [Rocket.Chat](https://github.com/RocketChat/Rocket.Chat/#about-rocketchat). To send new pull-requests, always use the branch `develop` as base and open an issue with the description of what you want/need to accomplish, if the issue wasn't created yet.
+This repository contains all the code related to the Android native application of [Cyberian.Chat](https://github.com/zaasmi/Cyberian.Chat/#about-cyberianchat). To send new pull-requests, always use the branch `develop` as base and open an issue with the description of what you want/need to accomplish, if the issue wasn't created yet.
 
 ## How to build
 
@@ -23,11 +23,11 @@ This repository contains all the code related to the Android native application 
 
 ### SDK Instructions
 
-- This version requires the [Kotlin SDK](https://github.com/RocketChat/Rocket.Chat.Kotlin.SDK) for Rocket.Chat. Clone the Kotlin SDK in by running `git clone https://github.com/RocketChat/Rocket.Chat.Kotlin.SDK.git`.
-- First, a build is required for the SDK, so that required jar files are generated. Make sure that the Android repository and the Kotlin SDK have the same immediate parent directory. Change the current directory to `Rocket.Chat.Android/app` and run the `build-sdk.sh` which will result in creating of the required jar file `core*.jar` and `common*.jar` in `Rocket.Chat.Android/app/libs`, by the following steps in your terminal window:
+- This version requires the [Kotlin SDK](https://github.com/RocketChat/Rocket.Chat.Kotlin.SDK) for Rocket.Chat. Clone the Kotlin SDK in by running `git clone https://github.com/zaasmi/Cyberian.Chat.Kotlin.SDK.git`.
+- First, a build is required for the SDK, so that required jar files are generated. Make sure that the Android repository and the Kotlin SDK have the same immediate parent directory. Change the current directory to `Cyberian.Chat.Android/app` and run the `build-sdk.sh` which will result in creating of the required jar file `core*.jar` and `common*.jar` in `Cyberian.Chat.Android/app/libs`, by the following steps in your terminal window:
 
 ```
-cd Rocket.Chat.Android/app
+cd Cyberian.Chat.Android/app
 ./build-sdk.sh
 ```
 
